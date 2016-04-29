@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "prebuild": "rimraf dist/assets",
-    "build": "webpack",
+    "build": "webpack && cp -f src/index.html dist/index.html",
+    "prestart": "npm run build",
     "start": "webpack-dev-server"
   },
   "keywords": [],
