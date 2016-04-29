@@ -1,0 +1,1 @@
+!function(e){function o(n){if(t[n])return t[n].exports;var r=t[n]={exports:{},id:n,loaded:!1};return e[n].call(r.exports,r,r.exports,o),r.loaded=!0,r.exports}var t={};return o.m=e,o.c=t,o.p="/assets",o(0)}([function(e,o,t){e.exports=t(1)},function(e,o,t){t(2),console.log("Hello and welcome to the website")},function(e,o){}]);
